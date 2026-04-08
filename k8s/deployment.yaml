@@ -17,5 +17,6 @@ spec:
         - name: frontend
           # указываешь образ, который пушится в registry
           image: pggorbachev/niffler-st5:latest
+          imagePullPolicy: Never
           ports:
             - containerPort: 80
